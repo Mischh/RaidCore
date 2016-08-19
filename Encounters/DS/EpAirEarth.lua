@@ -65,11 +65,14 @@ mod:RegisterGermanLocale({
     ["Aileron"] = "Aileron",
     ["Air Column"] = "Luftsäule",
     -- Datachron messages.
+	["The ground shudders beneath Megalith"] = "Der Boden unter Megalith bebt!",
     -- Cast.
     ["Supercell"] = "Superzelle",
     ["Raw Power"] = "Rohe Kraft",
     -- Timer bars.
     -- Message bars.
+    ["EARTH"] = "EARTH",
+    ["JUMP !"] = "JUMP, JUMP, JUMP, JUMP !!!"
 })
 -- Default settings.
 mod:RegisterDefaultSetting("LineTornado")

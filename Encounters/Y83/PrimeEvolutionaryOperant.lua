@@ -62,6 +62,24 @@ mod:RegisterFrenchLocale({
     ["%u STACKS BEFORE CORRUPTION"] = "%u STACKS AVANT CORRUPTION",
 })
 mod:RegisterGermanLocale({
+    -- Unit names.
+    ["Prime Evolutionary Operant"] = "Primärer Evolutions-Operand",
+    ["Prime Phage Distributor"] = "Primärer Phage-Verteiler",
+    ["Sternum Buster"] = "Sternum Buster",
+    ["Organic Incinerator"] = "Bio Verbrennungsanlage",
+    -- Datachron messages.
+    ["(.*) is being irradiated"] = "(.*) wird verstahlt!",
+    ["ENGAGING TECHNOPHAGE TRASMISSION"] = "AKTIVIERE TECHPHAGEN-ÜBERTAGUNG.",
+    ["A Prime Purifier has been corrupted!"] = "Ein Urreiniger wurde korrumpiert!",
+    ["INITIATING DECONTAMINATION SEQUENCE"] = "INITIATING DECONTAMINATION SEQUENCE",
+    -- Cast
+    ["Disintegrate"] = "Disintegrate",
+    ["Digitize"] = "Digitalisieren",
+    ["Strain Injection"] = "Transmutationsinjektion",
+    ["Corruption Spike"] = "Korrumpierungsstachel",
+    -- Bars messages.
+    ["~Next irradiate"] = "~Next irradiate",
+    ["%u STACKS BEFORE CORRUPTION"] = "%u STACKS BEFORE CORRUPTION",
 })
 -- Default settings.
 mod:RegisterDefaultSetting("SoundNextIrradiateCountDown")

@@ -30,12 +30,47 @@ mod:RegisterEnglishLocale({
     ["Ye've jammed me shredder"] = "Ye've jammed me shredder, ye have! Blast ye filthy bilge slanks!",
     ["The shredder'll take care o' ye"] = "The shredder'll take care o' ye once and fer all!", --Wipe incoming
     -- Cast.
+    ["Risen Repellent"] = "Risen Repellent", --unused.
+    ["Scrubber Bubbles"] = "Scrubber Bubbles", --unused
+    ["Clean Sweep"] = "Clean Sweep", --Resets swabbie to starting position after shredder jams --unused
+    ["Swabbie Swoop"] = "Swabbie Swoop", --Swabbie's ovement ability at start of fight
+    ["Necrotic Lash"] = "Necrotic Lash", --Cast by Noxious Nabber (grab and disorient), interruptable
+    ["Deathwail"] = "Deathwail", --Miniboss knockdown, interruptable
+    ["Gravedigger"] = "Gravedigger", --Miniboss cast?
+    ["Bilerush"] = "Bilerush", --unused
+    -- Bar and messages.
+    ["%s 10 BILE STACKS!"] = "%s 10 BILE STACKS!",
+    ["Swabbie Speed: %.2f"] = "Swabbie Speed: %.2f",
+    ["%d BILE STACKS!"] = "%d BILE STACKS!",
+    ["Bilerush"] = "Bilerush", --unused #2
+})
+mod:RegisterGermanLocale({
+    -- Unit names.
+    ["Swabbie Ski'Li"] = "Swabbie Ski'Li",
+    ["Regor the Rancid"] = "Regor the Rancid",
+	["Risen Redmoon Cadet"] = "Risen Redmoon Cadet",
+	["Risen Redmoon Plunderer"] = "Risen Redmoon Plunderer",
+    ["Noxious Nabber"] = "Noxious Nabber",
+    ["Putrid Pouncer"] = "Putrid Pouncer",
+    ["Risen Redmoon Grunt"] = "Risen Redmoon Grunt",
+    ["Bilious Brute"] = "Bilious Brute",
+    ["Sawblade"] = "Sägeblatt",
+    ["Saw"] = "Saw",
+    ["Tether Anchor"] = "Haltestrickverankerung",
+    ["Circle Telegraph"] = "Feindselige unsichtbare Einheit für Felder (Trefferradius 1.2)", --Bubble AoE?
+    -- Datachron messages.
+    ["WARNING: THE SHREDDER IS STARTING!"] = "WARNING: THE SHREDDER IS STARTING!",
+    -- NPC Say
+    ["Into the shredder with ye!"] = "Ab in den Schredder!", --Shredder is active!
+    ["Ye've jammed me shredder"] = "Ye've jammed me shredder, ye have! Blast ye filthy bilge slanks!", --XXXXXXXXX
+    ["The shredder'll take care o' ye"] = "The shredder'll take care o' ye once and fer all!", --Wipe incoming --XXXXXXXXXX
+    -- Cast.
     ["Risen Repellent"] = "Risen Repellent",
     ["Scrubber Bubbles"] = "Scrubber Bubbles",
     ["Clean Sweep"] = "Clean Sweep", --Resets swabbie to starting position after shredder jams
     ["Swabbie Swoop"] = "Swabbie Swoop", --Swabbie's ovement ability at start of fight
-    ["Necrotic Lash"] = "Necrotic Lash", --Cast by Noxious Nabber (grab and disorient), interruptable
-    ["Deathwail"] = "Deathwail", --Miniboss knockdown, interruptable
+    ["Necrotic Lash"] = "Nekrotisches Peitschen", --Cast by Noxious Nabber (grab and disorient), interruptable
+    ["Deathwail"] = "Totenklage", --Miniboss knockdown, interruptable
     ["Gravedigger"] = "Gravedigger", --Miniboss cast?
     ["Bilerush"] = "Bilerush",
     -- Bar and messages.

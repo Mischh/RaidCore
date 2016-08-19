@@ -328,11 +328,11 @@ function mod:OnCastStart(nId, sCastName, nCastEndTime, sName)
     local tUnit = GetUnitById(nId)
 
     if sName == self.L["Binary System Daemon"] and sCastName == self.L["Power Surge"] then
-        if phase2 and self:GetDistanceBetweenUnits(GameLib.GetPlayerUnit(), tUnit) < 40 then
+        if self:GetDistanceBetweenUnits(GameLib.GetPlayerUnit(), tUnit) < 40 then
             mod:AddMsg("SURGE", "INTERRUPT NORTH", 5, mod:GetSetting("SoundPowerSurge") and "Alert")
         end
     elseif sName == self.L["Null System Daemon"] and sCastName == self.L["Power Surge"] then
-        if phase2 and self:GetDistanceBetweenUnits(GameLib.GetPlayerUnit(), tUnit) < 40 then
+        if self:GetDistanceBetweenUnits(GameLib.GetPlayerUnit(), tUnit) < 40 then
             mod:AddMsg("SURGE", "INTERRUPT SOUTH", 5, mod:GetSetting("SoundPowerSurge") and "Alert")
         end
     elseif sCastName == "Purge" then
